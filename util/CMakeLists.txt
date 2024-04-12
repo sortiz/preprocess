@@ -24,6 +24,33 @@ set(PREPROCESS_UTIL_SOURCE
     spaces.cc
 		string_piece.cc
     utf8.cc
+    buffered_stream.hh  
+    exception.hh
+    file_piece.hh
+    float_to_string.hh
+    mmap.hh
+    object_pool.hh
+    probing_hash_table.hh
+    string_piece.hh
+    tokenize_piece.hh
+    compress.hh
+    fake_ostream.hh
+    file_stream.hh
+    have.hh
+    murmur_hash.hh
+    pcqueue.hh
+    scoped.hh
+    string_stream.hh
+    utf8.hh
+    ersatz_progress.hh  
+    file.hh
+    fixed_array.hh  
+    integer_to_string.hh
+    mutable_vocab.hh
+    pool.hh
+    spaces.hh
+    threaded_buffered_stream.hh
+    utf8_icu.hh
 	)
 
 set(COMPRESS_FLAGS)
